@@ -1,0 +1,9 @@
+file_format: "1"
+id: order66
+name: Order66 6x12-6
+type: shield
+url: https://github.com/rileytuttle/order66keyboard 
+requires: [nice_nano_v2]
+features:
+  - keys
+  - bluetooth
