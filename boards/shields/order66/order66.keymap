@@ -172,7 +172,7 @@
             display-name = "PASSWORD";
             bindings = <
                 &trans       &trans         &trans         &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
-                &trans       &trans         &trans         &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
+                &trans       &trans         &trans         &trans          &name        &trans       &trans         &trans         &trans       &trans          &trans  &trans
                 &trans       &trans         &workpassword  &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
                 &trans       &trans         &sshpassword   &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
                 &trans       &trans         &trans         &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
