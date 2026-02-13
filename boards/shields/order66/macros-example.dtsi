@@ -1,0 +1,63 @@
+/ {
+    macros {
+        macro1: macro1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap_time 1>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp T>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp H>
+                , <&macro_tap &kp I>
+                , <&macro_tap &kp S>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp I>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp S>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp A>
+                , <&macro_tap &kp M>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp A>
+                , <&macro_tap &kp C>
+                , <&macro_tap &kp R>
+                , <&macro_tap &kp O>
+                ;
+        };
+
+        macro2: macro2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap_time 1>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp T>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp H>
+                , <&macro_tap &kp I>
+                , <&macro_tap &kp S>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp I>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp S>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp A>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp N>
+                , <&macro_tap &kp O>
+                , <&macro_tap &kp T>
+                , <&macro_tap &kp H>
+                , <&macro_tap &kp E>
+                , <&macro_tap &kp R>
+                , <&macro_press &kp LSHFT>
+                , <&macro_tap &kp M>
+                , <&macro_release &kp LSHFT>
+                , <&macro_tap &kp A>
+                , <&macro_tap &kp C>
+                , <&macro_tap &kp R>
+                , <&macro_tap &kp O>
+                ;
+        };
+    };
+};
