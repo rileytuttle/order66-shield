@@ -172,8 +172,8 @@
             display-name = "MACROS";
             bindings = <
                 &trans       &trans         &trans         &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
-                &trans       &trans         &trans         &trans          &name        &trans       &trans         &trans         &trans       &trans          &trans  &trans
-                &trans       &trans         &work          &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
+                &trans       &trans         &trans         &trans          &trans        &trans       &trans         &trans         &trans       &trans          &trans  &trans
+                &trans       &trans         &work          &trans          &name       &trans       &trans         &trans         &trans       &trans          &trans  &trans
                 &trans       &trans         &ssh           &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
                 &trans       &trans         &trans         &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
                 &trans       &trans         &trans         &trans          &trans       &trans       &trans         &trans         &trans       &trans          &trans  &trans
