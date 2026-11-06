@@ -6,4 +6,26 @@ if SHIELD_ORDER66
 config ZMK_KEYBOARD_NAME
     default "order66"
 
+config ORDER66_DISPLAY_ROTATION
+    int "Display rotation in degrees (0/90/180/270), to match physical mounting"
+    default 180
+
+# our vendored widgets (widgets/order66_*.c) draw directly like nice_view's own
+# do, rather than going through nice_view's NICE_VIEW_WIDGET_STATUS Kconfig
+# (which we keep off -- see order66.conf), so we select what that would have.
+config LV_USE_IMAGE
+    default y
+
+config LV_USE_CANVAS
+    default y
+
+config LV_FONT_MONTSERRAT_16
+    default y
+
+config LV_FONT_MONTSERRAT_18
+    default y
+
+config LV_FONT_MONTSERRAT_14
+    default y
+
 endif
